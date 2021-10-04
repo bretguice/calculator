@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="case">
+                <div class="calculator-grid">
+                    <div class="output-wrapper">
+                        <p id="output">0</p>
+                    </div>
+                    <button id="percent" class="special-operator" value="percent">%</button>
+                    <button id="clear-entry" class="clear" value="clear-entry">CE</button>
+                    <button id="clear-all" class="clear" value="clear-all">C</button>
+                    <button id="backspace" class="clear" value="backspace" data-key="8"> BACK </button>
+                    <button id="fraction" class="special-operator" value="fraction">1/X</button>
+                    <button id="square" class="special-operator" value="square">x²</button>
+                    <button id="squareroot" class="special-operator" value="squareroot">√</button>
+                    <button id="divide" class="operator" value="/" data-key="111">÷</button>
+                    <button id="7" class="number" value="7" data-key="55">7</button>
+                    <button id="8" class="number" value="8" data-key="56">8</button>
+                    <button id="9" class="number" value="9" data-key="57">9</button>
+                    <button id="multiply" class="operator" value="*" data-key="106">x</button>
+                    <button id="4" class="number" value="4" data-key="52">4</button>
+                    <button id="5" class="number" value="5" data-key="53">5</button>
+                    <button id="6" class="number" value="6" data-key="54">6</button>
+                    <button id="subtract" class="operator" value="-" data-key="109">-</button>
+                    <button id="1" class="number" value="1" data-key="49">1</button>
+                    <button id="2" class="number" value="2" data-key="50">2</button>
+                    <button id="3" class="number" value="3" data-key="51">3</button>
+                    <button id="add" class="operator" value="+" data-key="107">+</button>
+                    <button id="negate" class="special-operator" value="negate">+/-</button>
+                    <button id="0" class="number" value="0" data-key="48">0</button>
+                    <button id="decimal" class="character" value="." data-key="110">.</button>
+                    <button id="equals" class="equals" value="equals" data-key="13">=</button>
+                </div>
+            </div>
+        </div> 
+        <script src="script.js" async defer></script>
+    </body>
+</html>
