@@ -1,4 +1,4 @@
-https://bretguice.github.io/calculator/
+https://bg-calculator-proj.netlify.app/
 
 I made a calculator using HTML/CSS and JavaScript for The Odin Project.
 
